@@ -16,8 +16,10 @@ def main():
     choice = input("\nCo chcesz zrobić?: ")
     if choice=="1":
         symulate()
+        input()
     elif choice=="2":
         create()
+        input()
     elif choice=="3":
         quit()
     else:
