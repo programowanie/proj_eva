@@ -3,6 +3,7 @@ from symulate import *
 def create():
     os.system('cls' if os.name == 'nt' else 'clear')
     print("Stwórz pracownika\n")
+    print("Krzywa gęstości zaczyna coś pokazywać dopiero od >=10 pracowników!\n")
     print("Zakres cech:")
     print("\tWiek: 25-65")
     print("\tPłeć: Kobieta/Mężczyzna")
